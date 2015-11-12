@@ -14,15 +14,15 @@
 					<div class="note-author"><small>-{{n.author}}</small></div>
 				</div>
 				
-				<form role="form" class="form-horizontal" name="newNoteForm">
+				<form role="form" class="form-horizontal" name="newNoteForm" ng-submit="save()">
 					<div class="form-group">
 						<label class="control-label col-lg-1">Color</label>
 						<div class="col-lg-5">
 							<div class="btn-group">
-								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="yellow">Yellow</button>
-								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="blue">Blue</button>
-								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="green">Green</button>
-								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="orange">Orange</button>
+								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="'yellow'">Yellow</button>
+								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="'blue'">Blue</button>
+								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="'green'">Green</button>
+								<button type="button" class="btn btn-primary" ng-model="note.color" btn-radio="'orange'">Orange</button>
 							</div>
 						</div>
 					</div>

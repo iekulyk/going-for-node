@@ -22,7 +22,7 @@
 			var categoryName = req.params.categoryName;
 			var newNote = {
 				note: req.body.note,
-				color: req.body.note,
+				color: req.body.color,
 				author: "ikulyk",
 				tags: ["Node.js", ".NET"]
 			};
