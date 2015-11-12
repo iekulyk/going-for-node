@@ -17,7 +17,23 @@ body {
 	width: 265px;
 }
 
-.note-yellow{
+.note-yellow,.note-blue,.note-POstman,.note-{
+	background: url(../images/Notes.png);
+}
+
+.note-blue{
+	background: url(../images/Notes.png);
+}
+
+.note-green{
+	background: url(../images/Notes.png);
+}
+
+.note-lightblue{
+	background: url(../images/Notes.png);
+}
+
+.note-coral{
 	background: url(../images/Notes.png);
 }
 
