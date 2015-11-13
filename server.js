@@ -2,6 +2,7 @@ var http = require("http");
 var express = require("express");
 var app = express();
 var controllers = require("./controllers");
+var updater = require("./updater");
 var bodyParser = require('body-parser');
 var flash = require("connect-flash");
 var session = require('express-session');
@@ -60,3 +61,5 @@ app.get("/api/sql", function (req, res) {
 
 var server = http.createServer(app);
 server.listen(8083);
+
+updater.init(server);
